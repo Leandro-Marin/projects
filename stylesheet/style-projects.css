@@ -1,0 +1,143 @@
+
+@font-face {
+    font-family: 'riftonnormal';
+    src: url('rifton-normal-webfont.woff2') format('woff2'),
+         url('rifton-normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@0;1&display=swap');
+
+html {
+    font-size: 62.5%;
+    background-color: #f4f4f4;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/****************   HEADER   *******************/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+h1 {
+    font-size: 7.8rem;
+    text-align: center;
+    font-family: rifton;
+}
+
+header a{
+    padding-top: 18px;
+    font-family: barlow;
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+
+}
+
+header p {
+    padding-top: 18px;
+    font-family: barlow;
+}
+
+/***************** MAIN ********************/
+
+main {
+    height: 100%;
+  }
+
+.abstract {
+    width: 440px;
+    height: 150px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+main p {
+    font-family: barlow;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    line-height: 15px;
+}
+
+.project {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  width: 1225px;
+  height: auto;
+
+}
+
+.item {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.item img {
+  width: 750px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+/************* BUTTON *********************/
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 60px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: #fff; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 9px; /* Some padding */
+  font-size: 1.2rem; /* Increase font size */
+  font-family: rifton;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+/************* FOOTER *********************/
+
+footer {
+  height: 35px;
+  font-family: barlow;
+}
+
+.footer-container {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+}
+
+.f-item-2 ul {
+  list-style-type: none;
+}
+
+.f-item-2 ul li {
+  display:inline-block;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+.f-item-2 ul li a{
+  text-decoration: none;
+  color: black;
+}
