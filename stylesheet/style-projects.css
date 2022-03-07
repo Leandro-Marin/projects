@@ -76,7 +76,6 @@ main p {
   margin-bottom: 60px;
   width: 1225px;
   height: auto;
-
 }
 
 .item {
@@ -168,6 +167,99 @@ width: 539px;
 
 .item img {
 width: 539px;
+}
+
+@media only screen and (max-width: 500px) {
+  /****************   HEADER   *******************/
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-b {
+    margin: 5px 0;
+  }
+
+ nav {
+   text-align: center;
+   width: auto;
+ }
+
+  
+  /************* MAIN *********************/
+  
+  main {
+    height: 100%;
+    width: 300px;
+  }
+
+  .abstract {
+    width: 300px;
+  }
+
+  .project {
+    width: 300px;
+  }
+
+  main p {
+    font-size: 1rem;
+}
+ 
+  .item {
+    width: 300px;
+  }
+
+  .item img {
+    width: 300px;
+  }
+
+  #myBtn {
+    display: none;
+  }
+
+
+/************* FOOTER *********************/
+
+footer {
+  height: 35px;
+  font-family: barlow, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.footer-container p {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.f-item-2 ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.f-item-2 ul li {
+  display:inline-block;
+  text-decoration: none;
+  padding: 0 5px;
+  text-align: center;
+}
+
+.f-item-2 ul li a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
 }
 
 }

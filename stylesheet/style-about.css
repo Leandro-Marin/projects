@@ -143,4 +143,97 @@ footer {
   margin: 50% auto;
 }
 
+@media only screen and (max-width: 500px) {
+  /****************   HEADER   *******************/
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-b {
+    margin: 5px 0;
+  }
+
+ nav {
+   text-align: center;
+   width: auto;
+ }
+
+  
+  /************* MAIN *********************/
+  
+  main {
+    height: 100%;
+    width: 300px;
+  }
+
+  .content-about h1{
+    font-size: 4.5rem;
+  }
+
+  .content-about p{
+    text-align: center;
+    margin: 10px 0;
+    width: 300px;
+  }
+  
+  .about-container {
+    height: 210px;
+    width: 300px;
+    margin: 50% auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+
+
+
+/************* FOOTER *********************/
+
+footer {
+  height: 35px;
+  font-family: barlow, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.footer-container p {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.f-item-2 ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.f-item-2 ul li {
+  display:inline-block;
+  text-decoration: none;
+  padding: 0 5px;
+  text-align: center;
+}
+
+.f-item-2 ul li a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+}
+
+
+
+
 }
