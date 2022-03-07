@@ -24,12 +24,12 @@ html {
 h1 {
     font-size: 7.8rem;
     text-align: center;
-    font-family: rifton;
+    font-family: rifton, Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
 .menu {
-  font-family: barlow;
+  font-family: barlow, sans-serif;
   display: flex;
   margin: 0 10px;
 }
@@ -68,13 +68,13 @@ main {
 }
 
 .contact-container p{
-    font-family: barlow;
+    font-family: barlow, sans-serif;
     color: black;
     font-size: 1.2rem;
 } 
 
 .contact-container h1{
-    font-family: rifton;
+    font-family: rifton, Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     color: black;
 } 
@@ -101,7 +101,7 @@ main {
 
 footer {
   height: 35px;
-  font-family: barlow;
+  font-family: barlow, sans-serif;
 }
 
 .footer-container {
@@ -123,4 +123,38 @@ footer {
 .f-item-2 ul li a{
   text-decoration: none;
   color: black;
+}
+
+/***************** MEDIA QUERIES ***********************/
+
+@media only screen and (max-width: 768px) {
+  /****************   HEADER   *******************/
+  h1 {
+    font-size: 3.5rem;
+  }
+  
+  .menu {
+    margin: 0 2px;
+  }
+  
+  .menu-1 {
+  flex-basis: 44%;
+  }
+  
+  .menu-2 {
+  flex-basis: 36%;
+  }
+  
+  .menu-3 {
+  flex-basis: 22%;
+  }
+
+/****************   MAIN   *******************/
+
+  .contact-container {
+    padding-top: 90px;
+  }
+
+
+
 }

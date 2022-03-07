@@ -2,7 +2,8 @@
 @font-face {
     font-family: 'riftonnormal';
     src: url('rifton-normal-webfont.woff2') format('woff2'),
-         url('rifton-normal-webfont.woff') format('woff');
+         url('rifton-normal-webfont.woff') format('woff'),
+         url('rifton-normal-webfont.otf') format('OpenType');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,12 +25,12 @@ html {
 h1 {
     font-size: 7.8rem;
     text-align: center;
-    font-family: rifton;
+    font-family: rifton, Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
 .menu {
-  font-family: barlow;
+  font-family: barlow, sans-serif;
   display: flex;
   margin: 0 10px;
 }
@@ -84,13 +85,13 @@ main {
 }
 
 .item h1{
-	font-family: rifton;
+	font-family: rifton, Arial, Helvetica, sans-serif;
 	font-size: 2rem;
 	margin: 0;
 }
 
 .item p{
-	font-family: barlow;
+	font-family: barlow, sans-serif;
 	font-size: 1.2rem;
 	margin: 0;
 }
@@ -99,7 +100,7 @@ main {
 
 footer {
   height: 35px;
-  font-family: barlow;
+  font-family: barlow, sans-serif;
 }
 
 .footer-container {
@@ -122,3 +123,49 @@ footer {
   text-decoration: none;
   color: black;
 }
+
+/***************** MEDIA QUERIES ***********************/
+
+@media only screen and (max-width: 768px) {
+/****************   HEADER   *******************/
+h1 {
+  font-size: 3.5rem;
+}
+
+.menu {
+  margin: 0 2px;
+}
+
+.menu-1 {
+flex-basis: 44%;
+}
+
+.menu-2 {
+flex-basis: 36%;
+}
+
+.menu-3 {
+flex-basis: 22%;
+}
+
+/************* MAIN *********************/
+
+.items-container {
+  padding-top: 300px;
+}
+
+.item {
+	width: 32%;
+}
+
+.item a h1:hover {
+  color: transparent;
+  -webkit-text-stroke: 0.3px #000;
+}
+
+.item h1{
+	font-size: 1.6rem;
+}
+
+}
+

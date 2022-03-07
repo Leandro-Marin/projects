@@ -32,12 +32,12 @@ header {
 h1 {
     font-size: 7.8rem;
     text-align: center;
-    font-family: rifton;
+    font-family: rifton, Arial, Helvetica, sans-serif;
 }
 
 header a{
     padding-top: 18px;
-    font-family: barlow;
+    font-family: barlow, sans-serif;
     list-style-type: none;
     display: inline-block;
     text-decoration: none;
@@ -47,7 +47,7 @@ header a{
 
 header p {
     padding-top: 18px;
-    font-family: barlow;
+    font-family: barlow, sans-serif;
 }
 
 /***************** MAIN ********************/
@@ -64,7 +64,7 @@ main {
 }
 
 main p {
-    font-family: barlow;
+    font-family: barlow, sans-serif;
     text-align: center;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -106,7 +106,7 @@ main p {
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 9px; /* Some padding */
   font-size: 1.2rem; /* Increase font size */
-  font-family: rifton;
+  font-family: rifton, Arial, Helvetica, sans-serif;
 }
 
 #myBtn:hover {
@@ -118,7 +118,7 @@ main p {
 
 footer {
   height: 35px;
-  font-family: barlow;
+  font-family: barlow, sans-serif;
 }
 
 .footer-container {
@@ -140,4 +140,34 @@ footer {
 .f-item-2 ul li a{
   text-decoration: none;
   color: black;
+}
+
+/***************** MEDIA QUERIES ***********************/
+@media only screen and (max-width: 768px) {
+  /****************   HEADER   *******************/
+h1 {
+    font-size: 5rem;
+}
+
+header a{
+    padding-top: 11px;
+}
+
+header p {
+    padding-top: 11px;
+}
+
+/***************** MAIN ********************/
+.project {
+width: 539px;
+}
+
+.item {
+width: 539px;
+}
+
+.item img {
+width: 539px;
+}
+
 }
