@@ -62,7 +62,7 @@ main {
 .about-container {
   height: 210px;
   width: 500px;
-  margin: 450px auto;
+  margin: 250px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -89,6 +89,7 @@ main {
 /************* FOOTER *********************/
 
 footer {
+  margin-top: 50px;
   height: 35px;
   font-family: barlow, sans-serif;
 }
