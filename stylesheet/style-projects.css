@@ -1,8 +1,8 @@
 
 @font-face {
     font-family: 'riftonnormal';
-    src: url('rifton-normal-webfont.woff2') format('woff2'),
-         url('rifton-normal-webfont.woff') format('woff');
+    src: url('rifton-normal-webfont.woff') format('woff'), 
+         url('rifton-normal-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -89,6 +89,27 @@ main p {
   margin-bottom: 20px;
 }
 
+/**** DEMO ****/
+.demo {
+  margin-bottom: 60px;
+}
+
+.demo a{
+	text-decoration: none;
+	color:black;
+	text-align: center;
+}
+
+.demo a h1:hover {
+  color: transparent;
+  -webkit-text-stroke: 0.3px #000;
+}
+
+.demo h1{
+	font-family: rifton, Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+	margin: 0;
+}
 
 /************* BUTTON *********************/
 
