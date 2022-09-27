@@ -1,0 +1,249 @@
+@font-face {
+  font-family: 'riftonnormal';
+  src: url('rifton-normal-webfont.woff2') format('woff2'),
+       url('rifton-normal-webfont.woff') format('woff'),
+       url('rifton-normal-webfont.otf') format('OpenType');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@0;1&display=swap');
+
+html {
+    font-size: 62.5%;
+    background-color: #f4f4f4;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+/*** HEADER ***/
+h1 {
+  width: 100%;
+  height: auto;
+  font-size: calc(4.7rem + 2vw);
+  text-align: center;
+  font-family: 'riftonnormal', sans-serif;
+  margin-top: 20px;
+}
+
+.menu-b a{
+  list-style-type: none;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+.menu {
+  margin: 0 9.2%;
+  font-family: 'Barlow', sans-serif;
+  display: flex;
+}
+
+.menu-1 {
+  flex-basis: 28.4%;
+}
+
+.menu-2 {
+  flex-basis: 33.3%;
+}
+
+.menu-3 {
+  flex-basis: 35%;
+}
+
+/*** MAIN ***/
+.riga {
+  display: none;
+}
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding-top: 200px;
+}
+
+.item {
+	width: 33%;
+	padding: 25px 0;
+	margin: 2px;	
+}
+
+.item a{
+	text-decoration: none;
+	color:black;
+	text-align: center;
+}
+
+.item a h1:hover {
+  color: transparent;
+  -webkit-text-stroke: 0.3px #000;
+}
+
+.item h1{
+	font-family: 'riftonnormal', Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+	margin: 0;
+}
+
+.item p{
+	font-family: 'Barlow', sans-serif;
+	font-size: 1.2rem;
+	margin: 0;
+}
+
+/*** FOOTER ***/
+footer {
+  margin: 0 9.4%;
+  height: 35px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+}
+
+.f-item-2 ul {
+  list-style-type: none;
+}
+
+.f-item-2 ul li {
+  display:inline-block;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+.f-item-2 ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+/*** MEDIA QUERIES ***/
+@media only screen and (max-width: 1199px) {
+  /** HEADER **/
+  h1 {
+    font-size: calc(3.9rem + 2vw);
+  }
+  /** MAIN **/
+  .item {
+    width: 32%;
+  }
+
+  .item a h1:hover {
+    color: transparent;
+    -webkit-text-stroke: 0.3px #000;
+  }
+}
+
+@media only screen and (max-width: 878px) {
+  /** HEADER **/
+  h1 {
+    font-size: calc(2.9rem + 2vw);
+  }
+}
+
+@media only screen and (max-width: 653px) {
+  /** HEADER **/
+  h1 {
+    font-size: calc(5.9rem + 2vw);
+  }
+
+  .menu-b a{
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: calc(0.5rem + 2vw);
+  }
+
+  .menu-b p {
+    font-size: calc(0.5rem + 2vw);
+  }
+  
+  .menu {
+    margin: 20px auto;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu-b {
+    margin: 10px 0;
+  }
+
+  /** MAIN **/
+  .items-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+  }
+
+  .item-1, .item-3, .item-4 {
+    display: none;
+  }
+  
+  .riga {
+    display: inherit;
+    width: 79%;
+    margin: 0 auto;
+  }
+  
+  .item {
+    width: 100%;
+    padding: 25px 0;
+    margin: 2px;	
+  }
+
+  .item h1{
+    font-family: 'riftonnormal', sans-serif;
+    font-size: calc(2rem + 2vw);
+    margin: 0;
+  }
+  
+  .item p{
+    font-family: 'Barlow', sans-serif;
+    font-size: calc(0.5rem + 2vw);
+    margin: 0;
+  }
+
+/** FOOTER **/
+footer {
+  margin: 25px 10%;
+  height: 35px;
+  font-family: 'Barlow', sans-serif;
+  font-size: calc(0.5rem + 2vw);
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.f-item-2 ul li {
+  display:inline-block;
+  text-decoration: none;
+  padding: 20px 15px;
+}
+
+.f-item-2 ul li a{
+  text-decoration: none;
+  color: black;
+}
+}
