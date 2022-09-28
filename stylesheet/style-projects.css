@@ -48,12 +48,13 @@ header a{
 header p {
     padding-top: 18px;
     font-family: 'Barlow', sans-serif;
+}
 
 /***************** MAIN ********************/
 
 main {
-    height: 100%;
-  }
+  height: 100%;
+}
 
 .abstract {
     width: 440px;
