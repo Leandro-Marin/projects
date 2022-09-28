@@ -61,7 +61,7 @@ flex-basis: 35%;
 .about-container {
 height: 210px;
 width: 500px;
-margin: 16% auto;
+margin: 150px auto 100px auto;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
@@ -91,6 +91,9 @@ footer {
   margin: 0 9.4%;
   height: 35px;
   font-family: 'Barlow', sans-serif;
+  position: absolute;
+  bottom: 0;
+  width: 80%;
 }
 
 .footer-container {
