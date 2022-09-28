@@ -32,7 +32,7 @@ header {
 h1 {
     font-size: 7.8rem;
     text-align: center;
-    font-family: 'riftonnormal', Arial, Helvetica, sans-serif;
+    font-family: 'rifton', Arial, Helvetica, sans-serif;
 }
 
 header a{
@@ -105,7 +105,7 @@ main p {
 }
 
 .demo h1{
-	font-family: 'riftonnormal', Arial, Helvetica, sans-serif;
+	font-family: 'rifton', Arial, Helvetica, sans-serif;
 	font-size: 2rem;
 	margin: 0;
 }

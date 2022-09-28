@@ -26,7 +26,7 @@ width: 100%;
 height: auto;
 font-size: calc(4.7rem + 2vw);
 text-align: center;
-font-family: 'riftonnormal', sans-serif;
+font-family: 'rifton', Arial, Helvetica, sans-serif;
 margin-top: 20px;
 }
 
@@ -70,7 +70,7 @@ justify-content: space-between;
 }
 
 .content-about h1{
-font-family: 'riftonnormal', sans-serif;
+font-family: 'rifton', Arial, Helvetica, sans-serif;
 font-size: calc(5.3rem + 2vw);
 margin: 0;
 padding: 0;
@@ -172,7 +172,7 @@ footer {
   }
 
   .item h1{
-    font-family: 'riftonnormal', sans-serif;
+    font-family: 'rifton', Arial, Helvetica, sans-serif;
     font-size: calc(2rem + 2vw);
     margin: 0;
   }
