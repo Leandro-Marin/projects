@@ -7,8 +7,6 @@
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@0;1&display=swap');
-
 html {
   font-size: 62.5%;
   background-color: #f4f4f4;
@@ -30,7 +28,7 @@ width: 100%;
 height: auto;
 font-size: calc(4.7rem + 2vw);
 text-align: center;
-font-family: 'rifton', Arial, Helvetica, sans-serif;
+font-family: 'rifton', 'Dela Gothic One',  Arial, Helvetica, sans-serif;
 margin-top: 20px;
 }
 
@@ -78,7 +76,7 @@ flex-basis: 35%;
 } 
 
 .contact-container span {
-    font-family: 'rifton', Arial, Helvetica, sans-serif;
+    font-family: 'rifton', 'Dela Gothic One',  Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     color: black;
     
@@ -184,7 +182,7 @@ footer {
   }
 
   .item h1{
-    font-family: 'rifton', Arial, Helvetica, sans-serif;
+    font-family: 'rifton', 'Dela Gothic One',  Arial, Helvetica, sans-serif;
     font-size: calc(2rem + 2vw);
     margin: 0;
   }
