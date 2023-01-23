@@ -72,7 +72,6 @@ main p {
 .project {
   margin-top: 100px;
   margin-bottom: 60px;
-  width: 1225px;
   height: auto;
 }
 
@@ -82,7 +81,7 @@ main p {
 }
 
 .item img {
-  width: 750px;
+  width: 100%;
   height: auto;
   margin-bottom: 20px;
 }
@@ -161,10 +160,24 @@ footer {
 }
 
 /***************** MEDIA QUERIES ***********************/
+@media only screen and (max-width: 1199px) {
+  /** HEADER **/
+  h1 {
+    font-size: calc(3.9rem + 2vw);
+  }
+}
+
+@media only screen and (max-width: 878px) {
+  /** HEADER **/
+  h1 {
+    font-size: calc(2.9rem + 2vw);
+  }
+}
+
 @media only screen and (max-width: 768px) {
   /****************   HEADER   *******************/
 h1 {
-    font-size: 5rem;
+    font-size: calc(2.5rem + 2vw);
 }
 
 header a{
@@ -189,8 +202,18 @@ width: 539px;
 }
 }
 
+@media only screen and (max-width: 666px) {
+  /** HEADER **/
+  h1 {
+    font-size: 3rem;
+  }
+
 @media only screen and (max-width: 500px) {
   /****************   HEADER   *******************/
+  header {
+   padding-top: 20px;
+  }
+
   h1 {
     font-size: 2rem;
     margin-bottom: 20px;
@@ -220,10 +243,12 @@ width: 539px;
 
   .abstract {
     width: 300px;
+    padding-top: 0;
   }
 
   .project {
     width: 300px;
+    margin: 20px 0;
   }
 
   main p {
@@ -270,7 +295,7 @@ footer {
 .f-item-2 ul li {
   display:inline-block;
   text-decoration: none;
-  padding: 0 5px;
+  padding: 0 15px;
   text-align: center;
 }
 
@@ -278,5 +303,6 @@ footer {
   text-decoration: none;
   color: black;
   text-align: center;
+}
 }
 }
