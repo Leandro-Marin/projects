@@ -98,6 +98,13 @@ flex-basis: 35%;
     margin-left: 5px;
 }
 
+.info-2 a {
+  margin-top: 15px;
+  font-family: barlow, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
 /*** FOOTER ***/
 footer {
   margin: 0 9.4%;
